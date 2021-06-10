@@ -1,0 +1,1 @@
+En el script imprimí la ruta al directorio de trabajo actual 
