@@ -5,3 +5,4 @@
 5. Create an empty file.
 6. Adds execute permission to the owner.
 7. Multiple permissions
+8. Adds execution permission to all users
