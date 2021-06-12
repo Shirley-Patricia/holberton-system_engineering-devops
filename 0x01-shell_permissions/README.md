@@ -7,4 +7,5 @@
 7. Multiple permissions
 8. Adds execution permission to all users
 9. James Bond
-10. Script that sets the mode of the file 
+10. Script that sets the mode of the file
+11. Look in the mirror
