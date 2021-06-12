@@ -4,3 +4,4 @@
 4. Changes the owner of the file.
 5. Create an empty file.
 6. Adds execute permission to the owner.
+7. Multiple permissions
