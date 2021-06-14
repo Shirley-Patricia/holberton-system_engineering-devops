@@ -5,3 +5,4 @@
 4. Display the last 10 lines
 5. Display the first 10 lines
 6. Displays the third line of the file.
+7. Creates a file named exactly name, containing the text Holberton School ending by a new line.
