@@ -10,3 +10,4 @@
 9. Duplicates the last line of the file.
 10 Deletes all the regular files (not the directories) with a .js extension 
 11. Counts the number of directories and sub-directories in the current directory.
+12. Displays the 10 newest files, sorted from the newest to the oldest
