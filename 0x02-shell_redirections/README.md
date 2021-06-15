@@ -6,3 +6,7 @@
 5. Display the first 10 lines
 6. Displays the third line of the file.
 7. Creates a file named exactly name, containing the text Holberton School ending by a new line.
+8. Writes into the file the result of the command ls -la, overwritten if the file exist.
+9. Duplicates the last line of the file.
+10 Deletes all the regular files (not the directories) with a .js extension 
+11. Counts the number of directories and sub-directories in the current directory.
