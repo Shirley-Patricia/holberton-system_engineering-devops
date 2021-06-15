@@ -12,3 +12,4 @@
 11. Counts the number of directories and sub-directories in the current directory.
 12. Displays the 10 newest files, sorted from the newest to the oldest
 13. Takes a list of words as input and prints only words that appear exactly once.
+14. Display lines containing the pattern “root” from the file /etc/passwd.
