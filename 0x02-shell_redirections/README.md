@@ -14,3 +14,10 @@
 13. Takes a list of words as input and prints only words that appear exactly once.
 14. Display lines containing the pattern “root” from the file /etc/passwd.
 15. Display the number of lines that contain the pattern “bin” in the file /etc/passwd.
+16. Display lines containing the pattern “root” and 3 lines after them.
+17. Display all the lines in a file that do not contain a determined pattern.
+18. Display all lines of a file starting with a letter.
+19. Translate all character in a file from input.
+20. Remove all particular letters from input
+21. Reverse an input
+22. Displays all users and their home directories, sorted by users.
