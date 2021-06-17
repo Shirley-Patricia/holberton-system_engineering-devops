@@ -1,2 +1,0 @@
-#!/bin/bash
-Find . -type f -size 0b | ls -a
