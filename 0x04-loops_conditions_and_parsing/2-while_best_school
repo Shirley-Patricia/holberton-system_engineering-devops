@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# write "Best school" 10 times using while loop
+
+var=0
+#LIMIT=10
+
+while [ "$var" -lt "10" ]
+do 
+echo "Best School"
+
+var=$((var+1)) # the $ in "$var+1" is unnecessary on arithmetic variables
+
+done
+
+exit 0
