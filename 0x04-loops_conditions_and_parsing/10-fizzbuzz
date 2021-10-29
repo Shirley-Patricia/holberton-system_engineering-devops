@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# write "Best school", Bad luck and good luck using while loop, if, elif and else
+
+var=1
+
+while [ "$var" -lt "101" ]
+do 
+if [ $((var%3)) -eq 0 ] && [ $((var%5)) -eq 0 ]
+then
+	echo "FizzBuzz"
+elif [ $((var%3)) -eq 0 ]
+then
+	echo "Fizz"
+elif [ $((var%5)) -eq 0 ]
+then
+	echo "Buzz"
+else [ "$var" -lt "101" ]
+	echo "$var"
+fi
+
+var=$((var+1)) 
+
+done
+
+exit 0
