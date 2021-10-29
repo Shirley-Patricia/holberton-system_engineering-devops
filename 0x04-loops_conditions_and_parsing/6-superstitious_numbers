@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays numbers from 1 to 20 and Superstitious numbers
+
+var=1
+
+while [ $var -lt 20 ]
+do 
+case $var in 
+5)
+	echo "bad luck from China"
+	;;
+10)
+	echo "bad luck from Japan"
+	;;
+18)
+	echo "bad luck from Italy"
+	;;
+esac
+
+echo "$var"
+var=$((var+1)) # the $ in "$var+1" is unnecessary on arithmetic variables
+
+done
+
+exit 0
