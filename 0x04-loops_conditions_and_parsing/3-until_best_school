@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# write "Best school" 10 times using until loop
+
+var=0
+
+until [ "$var" = "10" ]
+do 
+echo "Best School"
+
+var=$((var+1)) # the $ in "$var+1" is unnecessary on arithmetic variables
+
+done
+
+exit 0
