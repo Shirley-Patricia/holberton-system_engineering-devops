@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# write "Best school", Bad luck and good luck using while loop, if, elif and else
+
+var=0
+#LIMIT=10
+
+while [ "$var" -lt "10" ]
+do 
+if [ "$var" -lt "3" ]
+then
+	echo "Best School"
+elif [ "$var" -eq "3" ]
+then
+	echo "bad luck"
+elif [ "$var" -le "6" ]
+then
+	echo "Best School"
+elif [ "$var" -eq "7" ]
+then
+	echo "good luck"
+else [ "$var" -lt "10" ]
+	echo "Best School"
+fi
+
+var=$((var+1)) # the $ in "$var+1" is unnecessary on arithmetic variables
+
+done
+
+exit 0
