@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays lines containing the bash word, using task 1
+
+pgrep -l bash
