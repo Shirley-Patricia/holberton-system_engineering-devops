@@ -2,19 +2,18 @@
 # write "Best school", Bad luck and good luck using while loop, if, elif and else
 
 hour=0
-min=1
 
 while [ "$hour" -lt "13" ]
 do 
 echo "Hour: $hour"
 hour=$((hour+1)) 
 
+min=1
 while [ "$min" -lt "60" ]
 	do
 	echo "$min"
 	min=$((min+1))
 	done
-
 
 done
 
