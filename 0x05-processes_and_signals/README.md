@@ -72,9 +72,11 @@ Requirements: You cannot use kill or killall
 <h2> 7. Highlander </h2>
 Write a Bash script that displays:
 
-To infinity and beyond indefinitely
-With a sleep 2 in between each iteration
-I am invincible!!! when receiving a SIGTERM signal
+To infinity and beyond indefinitely.
+
+With a sleep 2 in between each iteration.
+
+I am invincible!!! when receiving a SIGTERM signal.
 
 <h2> 8. Beheaded process </h2>
 Write a Bash script that kills the process 7-highlander
