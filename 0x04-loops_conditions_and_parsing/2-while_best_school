@@ -2,7 +2,6 @@
 # write "Best school" 10 times using while loop
 
 var=0
-#LIMIT=10
 
 while [ "$var" -lt "10" ]
 do 

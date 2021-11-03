@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# write "Best school", Bad luck and good luck using while loop, if, elif and else
+# Write a Bash script that displays numbers from 1 to 100.
 
 var=1
 

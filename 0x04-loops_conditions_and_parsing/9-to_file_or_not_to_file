@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# To file, or not to file using while loop, if, elif and else
+# To file, or not to file, Write a Bash script that gives you information about the school file, 
+#+ using while loop, if and else
 
 if [ -e "school" ]
 then

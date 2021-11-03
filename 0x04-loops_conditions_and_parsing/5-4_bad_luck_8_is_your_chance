@@ -2,7 +2,6 @@
 # write "Best school", Bad luck and good luck using while loop, if, elif and else
 
 var=0
-#LIMIT=10
 
 while [ "$var" -lt "10" ]
 do 
