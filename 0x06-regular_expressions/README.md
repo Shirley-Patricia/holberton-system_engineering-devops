@@ -1,24 +1,4 @@
-<title>Project: 0x06. Regular expression | Holberton Medellín, Colombia Intranet</title>
-
- <h2>Concepts</h2>
-
-  <div class="panel panel-default">
-    <div class="panel-body">
-      <p>
-        <em>For this project, students are expected to look at this concept:</em>
-      </p>
-
-      <ul>
-          <li>
-            <a href="/concepts/29">Regular Expression</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
-
-      <div class="gap" id="project-description">
-  <h2>Background Context</h2>
+<h2>Background Context</h2>
 
 <p>For this project, you have to build your regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. Note that other regular expression libraries sometimes have different properties.</p>
 
