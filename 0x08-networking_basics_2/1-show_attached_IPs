@@ -2,6 +2,6 @@
 # Write a Bash script that pings an IP address passed as an argument.
 #ifconfig $(route | grep ^0.0.0.0 | awk '{print $NF}') | grep inet | grep -v inet6 | awk '{print $2}'
 
-ip address| awk '/inet/ {print $2}' | grep -v ^::1 | grep -Ev ^.{4}:
+ip address| awk '/inet/ {print $2}' | grep -v ^::1 | grep -Ev '^.{4}:'
 
 
