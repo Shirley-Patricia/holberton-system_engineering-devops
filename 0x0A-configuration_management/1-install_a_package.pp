@@ -1,5 +1,5 @@
 # Using Puppet, install puppet-lint
 
 package { 'puppet-lint':
-    ensure => 'latest',
+    ensure => '2.5.0',
   }
