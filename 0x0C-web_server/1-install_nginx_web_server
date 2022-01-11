@@ -7,7 +7,6 @@
 sudo su
 apt-get update
 apt-get -y install nginx
-ufw allow 'Nginx HTTP'
 echo "Hello world" > /var/www/html/index.html
 printf %s "server {
        listen 80 default_server;
