@@ -83,21 +83,6 @@ sylvain@ubuntu:~$
       0. Give me a page!
     </h3>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
-
-  <div class="panel-body">
-    <span id="user_id" data-id="3513"></span>
-
-    <!-- Progress vs Score -->
-
-    <!-- Task Body -->
-    <p>Be sure to read the <strong>Docker</strong> concept page</p>
-
 <p>In this first debugging project, you will need to get <a href="/rltoken/B4vOap4dPNKxdZzBbepK7Q" title="Apache" target="_blank">Apache</a> to run on the container and to return a page containing <code>Hello Holberton</code> when querying the root of it.</p>
 
 <p>Example:</p>
