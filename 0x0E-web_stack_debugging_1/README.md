@@ -28,11 +28,11 @@
       0. Nginx likes port 80
     </h3>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
+<div>
+	<span class="label label-info">
+		mandatory
+	</span>
+</div>
   </div>
 
   <div class="panel-body">
