@@ -17,31 +17,12 @@
 <li>You are not allowed to use <code>wget</code></li>
 </ul>
 
-     <h2 class="gap">Tasks</h2>
+<h2>Tasks</h2>
 
-    <div data-role="task1446" data-position="1" id="task-num-0">
-      <div class="panel panel-default task-card " id="task-1446">
-  <span id="user_id" data-id="3513"></span>
-
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      0. Nginx likes port 80
+<h3> 0. Nginx likes port 80
     </h3>
 
-<div>
-	<span class="label label-info">
-		mandatory
-	</span>
-</div>
-  </div>
-
-  <div class="panel-body">
-    <span id="user_id" data-id="3513"></span>
-
-    <!-- Progress vs Score -->
-
-    <!-- Task Body -->
-    <p>Using your debugging skills, find out what&rsquo;s keeping your Ubuntu container&rsquo;s Nginx installation from listening on port <code>80</code>. Feel free to install whatever tool you need, start and destroy as many containers as you need to debug the issue. Then, write a Bash script with the minimum number of commands to automate your fix.</p>
+<p>Using your debugging skills, find out what&rsquo;s keeping your Ubuntu container&rsquo;s Nginx installation from listening on port <code>80</code>. Feel free to install whatever tool you need, start and destroy as many containers as you need to debug the issue. Then, write a Bash script with the minimum number of commands to automate your fix.</p>
 
 <p>Requirements:</p>
 
