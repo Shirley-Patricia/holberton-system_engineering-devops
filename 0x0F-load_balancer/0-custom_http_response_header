@@ -5,6 +5,7 @@
 # using curl, it must return a page that contains the string Hello World
 
 sudo apt-get -y update
+sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 sudo sed -i '23 a add_header X-Served-By $hostname;' /etc/nginx/nginx.conf
 sudo service nginx restart
