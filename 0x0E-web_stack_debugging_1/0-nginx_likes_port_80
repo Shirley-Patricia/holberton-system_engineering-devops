@@ -6,4 +6,4 @@ echo "server {
        listen 80 default_server;                                                                      
        listen [::]:80 default_server;                                                                 
        }" >> /etc/nginx/nginx.conf
-service nginx restart
+service nginx reload
