@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
-# Install nginx on your web-01 server
-# Nginx should be listening on port 80
-
+# Find out what’s keeping your Ubuntu container’s Nginx installation from listening on port 80
+sudo su
+service nginx start
+echo "server {                                                                                        
+       listen 80 default_server;                                                                      
+       listen [::]:80 default_server;                                                                 
+       }" >> /etc/nginx/nginx.conf
