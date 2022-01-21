@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# To Desing a custom 404 page 
+sudo service nginx start
+echo "<<body style='background: url(https://image.freepik.com/vector-gratis/estampado-viaje-elementos-lineas-trazos_23-2148047648.jpg) center fixed; background-size: 930px; margin: 0'></body>" | sudo tee /usr/share/nginx/html/custom_404.html
+echo "<h1 style='color: aquamarine; text-align: center; background-color: black; margin: 5px'>Error 404</h1>" | sudo tee -a /usr/share/nginx/html/custom_404.html
+echo "<p style='color: aquamarine; text-align: center; background-color: black'>The page you are looking for doesn't exist</p>" | sudo tee -a /usr/share/nginx/html/custom_404.html
+echo "<footer style='color: black; text-align: center; margin-top: 595px; font-size:50px; background-color: white; bottom: 0; border-top: 5px aquamarine solid; border-bottom: 5px aquamarine solid; '>Ceci n'est pas une page</footer>" | sudo tee -a /usr/share/nginx/html/custom_404.html
+sudo service nginx restart
