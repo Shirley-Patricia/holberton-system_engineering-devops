@@ -2,4 +2,4 @@
 # Find out what’s keeping your Ubuntu container’s Nginx installation from listening on port 80 and stop nginx
 
 sudo sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-sudo pkill -1
+sudo pkill -1 nginx
