@@ -56,23 +56,7 @@ sylvain@ubuntu$
   <div class="panel-heading panel-heading-actions">
     <h3 class="panel-title">
       0. Block all incoming traffic but
-    </h3>
-
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-  </div>
-
-  <div class="panel-body">
-    <span id="user_id" data-id="3513"></span>
-
-    <!-- Progress vs Score -->
-
-    <!-- Task Body -->
-    <p>Let&rsquo;s install the <code>ufw</code> firewall and setup a few rules on <code>web-01</code>.</p>
-
+    
 <p>Requirements:</p>
 
 <ul>
