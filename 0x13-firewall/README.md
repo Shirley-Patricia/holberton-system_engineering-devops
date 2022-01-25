@@ -47,15 +47,9 @@ sylvain@ubuntu$
 
 </div>
 
- <h2 class="gap">Tasks</h2>
-
-    <div data-role="task1567" data-position="2" id="task-num-0">
-      <div class="panel panel-default task-card " id="task-1567">
-  <span id="user_id" data-id="3513"></span>
-
-  <div class="panel-heading panel-heading-actions">
-    <h3 class="panel-title">
-      0. Block all incoming traffic but
+ <h2>Tasks</h2>
+  
+<h2>0. Block all incoming traffic but</h2>
     
 <p>Requirements:</p>
 
@@ -70,5 +64,3 @@ sylvain@ubuntu$
 </ul></li>
 <li>Share the <code>ufw</code> commands that you used in your answer file</li>
 </ul>
-
-  </div>
