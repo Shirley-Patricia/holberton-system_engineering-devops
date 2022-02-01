@@ -22,8 +22,8 @@ if __name__ == "__main__":
             if i['completed'] is True:
                 task += 1
             total_task += 1
-        print("Employee {} is done with tasks ({}/{}):".format(
-              employee, task, total_task))
+        print("Employee {} is done with tasks({}/{}):".format(
+            employee, task, total_task))
 
         for i in response2.json():
             print("\t {}".format(i['title']))
