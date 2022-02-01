@@ -9,11 +9,11 @@ if __name__ == "__main__":
     import requests
     from sys import argv
 
-    url = "https://jsonplaceholder.typicode.com/users/"
-    response1 = requests.get(url + argv[1])
+    url = "https://jsonplaceholder.typicode.com/users/{}".format(argv[1])
+    response1 = requests.get(url)
 
-    url = "https://jsonplaceholder.typicode.com/users/"
-    response2 = requests.get(url + argv[1] + "/todos")
+    url = "https://jsonplaceholder.typicode.com/users/{}/todos".format(argv[1])
+    response2 = requests.get(url)
     task = 0
     total_task = 0
     if response2.status_code == 200 & response1.status_code == 200:
