@@ -26,4 +26,5 @@ if __name__ == "__main__":
             employee, task, total_task))
 
         for i in response2.json():
-            print("\t {}".format(i['title']))
+            if i['completed'] is True:
+                print("\t {}".format(i['title']))
