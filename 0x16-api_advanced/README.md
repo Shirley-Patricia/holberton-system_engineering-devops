@@ -18,7 +18,7 @@
 
 <h1>Tasks</h1>
 <h2>0. How many subs?</h2>
-<p>Write a function that queries the <a href="/rltoken/odMvR9obKnQCx5EaM6_YFA" title="Reddit API" target="_blank">Reddit API</a> and returns the number of subscribers (not active users, total subscribers) for a given subreddit. If an invalid subreddit is given, the function should return 0.</p>
+<p>Write a function that queries the <a href="https://www.reddit.com/dev/api/" title="Reddit API" target="_blank">Reddit API</a> and returns the number of subscribers (not active users, total subscribers) for a given subreddit. If an invalid subreddit is given, the function should return 0.</p>
 
 <p>Hint: No authentication is necessary for most features of the Reddit API. If you&rsquo;re getting errors related to Too Many Requests, ensure you&rsquo;re setting a custom User-Agent.</p>
 
@@ -31,7 +31,7 @@
 </ul>
 
 <h2>1. Top Ten</h2>
-<p>Write a function that queries the <a href="/rltoken/odMvR9obKnQCx5EaM6_YFA" title="Reddit API" target="_blank">Reddit API</a> and prints the titles of the first 10 hot posts listed for a given subreddit.</p>
+<p>Write a function that queries the <a href="https://www.reddit.com/dev/api/" title="Reddit API" target="_blank">Reddit API</a> and prints the titles of the first 10 hot posts listed for a given subreddit.</p>
 
 <p>Requirements:</p>
 
