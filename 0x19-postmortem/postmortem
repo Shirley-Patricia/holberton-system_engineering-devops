@@ -1,37 +1,36 @@
-<h1>NGINX port 80 outage incident report</h1>
+NGINX port 80 outage incident report
 
-<p><strong>Posted:</strong> Sunday, febr 20, 2022</p>
+Posted: Sunday, febr 20, 2022
 
-<p><i>By the infrastructure team</i></p>
+By the infrastructure team
 
-<p>The following is the incident report with the ubuntu container nginx installation that occurred on January 15, 2022 and was preventing this web server from running on port 80.</p>
+The following is the incident report with the ubuntu container nginx installation that occurred on January 15, 2022 and was preventing this web server from running on port 80.
 
-<h2>Problem summary</h2>
+problem summary
 
-<p>From 11:20 a.m. to 3:42 p.m. on Monday, February 14, there were problems starting the new app, because the server installation did not want to run through port 80, this caused delays in the launch of the new application, affecting 100% of users and economic losses that affected our client. The root cause of this problem was an invalid configuration change, that exposed a bug on the server.</p>
+From 11:20 a.m. to 3:42 p.m. on Monday, February 14, there were problems starting the new app, because the server installation did not want to run through port 80, this caused delays in the launch of the new application, affecting 100% of users and economic losses that affected our client. The root cause of this problem was an invalid configuration change, that exposed a bug on the server.
 
-<h2>Timeline</h2>
+Timeline
 
-<p>11:15 am: nginx installation is started</p>
-<p>11:20 AM: Trouble running nginx</p>
-<p>11:21 PM: Teams are alerted.</p>
-<p>12:00 PM: problem detected with port 80</p>
-<p>12:30 PM; changed setting</p>
-<p>12:45PM: nginx server restart</p>
-<p>13:06 PM: Expected maximum online traffic.</p>
+11:15 am: nginx installation is started
+11:20 AM: Trouble running nginx
+11:21 PM: Teams are alerted.
+12:00 PM: problem detected with port 80
+12:30 PM; changed setting
+12:45PM: nginx server restart
+13:06 PM: Expected maximum online traffic.
 
-<h2>Root cause</h2>
+Root cause
 
-<p>At 11:20 AM, the installation of nginx begins, whose configuration was released in a production environment without first being released in a test environment, this caused a delay in the maintenance and installation of the new server and a permanent block of users in the use of the web application. </p>
+At 11:20 AM, the installation of nginx begins, whose configuration was released in a production environment without first being released in a test environment, this caused a delay in the maintenance and installation of the new server and a permanent block of users in the use of the web application. 
 
-<p>At 11:21 the test and maintenance team was informed of the problem, and at 12:00 pm the root cause had already been detected, which led to a change in the configuration from port 8080 to port 80 again, at 12:00: 50 service slowly began to be restored and by 13:06 all online traffic had been restored.</p>
+At 11:21 the test and maintenance team was informed of the problem, and at 12:00 pm the root cause had already been detected, which led to a change in the configuration from port 8080 to port 80 again, at 12:00: 50 service slowly began to be restored and by 13:06 all online traffic had been restored.
 
-<h2>Corrective and preventative measures </h2>
+Corrective and preventative measures 
 
-<p>We have performed an internal review and outage analysis and will take the following actions to help prevent recurrence and improve response times:</p>
+We have performed an internal review and outage analysis and will take the following actions to help prevent recurrence and improve response times:
 
-<ul>
-<li>Make sure that the released configuration has been previously tested in a test environment</li>
-<li>Make a checklist that must be verified before the installation and release of any configuration program.</li>
-<li>Improve auditing procedures for reviewing configuration programs.</li>
-</ul>
+- Make sure that the released configuration has been previously tested in a test environment
+- Make a checklist that must be verified before the installation and release of any configuration program.
+- Improve auditing procedures for reviewing configuration programs.
+ 
