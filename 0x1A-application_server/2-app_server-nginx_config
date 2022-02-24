@@ -1,8 +1,6 @@
 server {
-     listen 80;
-     server_name integralhealth.tech;
-
-    location / {
+     
+     location /airbnb-onepage/ {
         include proxy_params;
         proxy_pass http://127.0.0.1:5000;
    }
