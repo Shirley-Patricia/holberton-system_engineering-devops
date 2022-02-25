@@ -2,5 +2,5 @@
 
 exec { 'max_files':
   command => 'sed -i s/15/4096/ /etc/default/nginx; service nginx restart',
-  path    => ['/usr/bin'],
+  path    => ['/usr/bin:/usr/sbin:/bin'],
   }
